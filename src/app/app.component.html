@@ -1,17 +1,20 @@
 <header class="header w-full">
   <div class="topbarContainer bg-slate-800 top-0 fixed w-full">
     <app-header></app-header>
-  </div>
-  <div class="nav">
-    <app-nav></app-nav>
+    <div class="">
+      <app-nav></app-nav>
+    </div>
   </div>
 </header>
 
 <main>
-  <section class="content">
+  <section class="content mt-36">
     <router-outlet></router-outlet>
     <div class="hero-container">
       <app-hero></app-hero>
     </div>
+  </section>
+  <section class="content">
+    <app-deals></app-deals>
   </section>
 </main>

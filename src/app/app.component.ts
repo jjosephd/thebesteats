@@ -4,6 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { NavComponent } from './nav/nav.component';
 import { HeroComponent } from './hero/hero.component';
+import { DealsComponent } from './deals/deals.component';
 import { RouterModule } from '@angular/router';
 
 @Component({
@@ -12,6 +13,7 @@ import { RouterModule } from '@angular/router';
     HeaderComponent,
     NavComponent,
     HeroComponent,
+    DealsComponent,
     RouterModule,
     RouterOutlet,
   ],
