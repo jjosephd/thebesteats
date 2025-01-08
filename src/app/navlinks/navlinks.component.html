@@ -1,0 +1,9 @@
+<ul class="nav decoration-none flex flex-row gap-20 items-center py-10">
+  <li *ngFor="let link of navbarLinks">
+    <a href="{{ link.url }}">{{ link.label }}</a>
+  </li>
+
+  <button class="btn reserve-btn ml px-4 py-2 rounded-lg border border-black">
+    Reserve
+  </button>
+</ul>
