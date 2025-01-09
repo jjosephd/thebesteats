@@ -5,6 +5,7 @@ import { HeaderComponent } from './header/header.component';
 import { NavComponent } from './nav/nav.component';
 import { HeroComponent } from './hero/hero.component';
 import { DealsComponent } from './deals/deals.component';
+import { DetailsComponent } from './details/details.component';
 import { RouterModule } from '@angular/router';
 
 @Component({
@@ -14,6 +15,7 @@ import { RouterModule } from '@angular/router';
     NavComponent,
     HeroComponent,
     DealsComponent,
+    DetailsComponent,
     RouterModule,
     RouterOutlet,
   ],

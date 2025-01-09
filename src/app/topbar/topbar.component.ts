@@ -4,7 +4,6 @@ import {
   FontAwesomeModule,
   FaIconLibrary,
 } from '@fortawesome/angular-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebook,
   faInstagram,
