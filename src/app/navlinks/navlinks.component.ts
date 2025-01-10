@@ -16,8 +16,8 @@ interface Link {
 export class NavlinksComponent {
   navbarLinks: Link[] = [
     { label: 'Home', url: '/' },
-    { label: 'Menu', url: '/' },
+    { label: 'Menu', url: '#deals' },
     { label: 'About', url: '#about' },
-    { label: 'Contact', url: '#contact' },
+    { label: 'Popular Items', url: '#popularItems' },
   ];
 }

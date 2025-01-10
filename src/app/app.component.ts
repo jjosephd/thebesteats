@@ -7,6 +7,7 @@ import { HeroComponent } from './hero/hero.component';
 import { MainInputComponent } from './main-input/main-input.component';
 import { DealsComponent } from './deals/deals.component';
 import { DetailsComponent } from './details/details.component';
+import { PopularItemsComponent } from './popular-items/popular-items.component';
 import { RouterModule } from '@angular/router';
 
 @Component({
@@ -18,6 +19,7 @@ import { RouterModule } from '@angular/router';
     HeroComponent,
     DealsComponent,
     DetailsComponent,
+    PopularItemsComponent,
     RouterModule,
     RouterOutlet,
   ],

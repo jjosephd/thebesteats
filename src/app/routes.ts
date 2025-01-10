@@ -12,7 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 import { Routes } from '@angular/router';
+import { HeroComponent } from './hero/hero.component';
 
-const routeConfig: Routes = [];
+const routeConfig: Routes = [
+  {
+    path: '',
+    component: HeroComponent,
+    title: 'Home',
+  },
+];
 
 export default routeConfig;

@@ -3,7 +3,8 @@ import { appConfig } from './app/app.config';
 import { AppComponent } from './app/app.component';
 import { provideRouter } from '@angular/router';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import routeConfig from './app/routes';
 
 bootstrapApplication(AppComponent, {
-  providers: [provideRouter([]), provideAnimationsAsync('noop')],
+  providers: [provideRouter(routeConfig)],
 }).catch((err) => console.error(err));
