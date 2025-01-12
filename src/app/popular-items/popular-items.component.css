@@ -1,0 +1,42 @@
+/**
+ * Copyright 2025 Jordan Daniel
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *     https://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+.popularItemsContainer {
+  height: 50vh;
+  background-image: linear-gradient(45deg, #fdfaf4, #f3f4f2);
+}
+
+.mediaScroller {
+  grid-auto-columns: 24%;
+  scroll-behavior: smooth;
+}
+
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+}
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+.snaps-inline::-webkit-scrollbar {
+}
+
+.popularItemPreview img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 8px;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}

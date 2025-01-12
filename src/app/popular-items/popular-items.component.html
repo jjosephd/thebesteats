@@ -1,3 +1,27 @@
-<div
-  class="popularItemsContainer flex flex-col gap-10 justify-center items-center"
-></div>
+<div class="popularItemsContainer flex flex-col justify-center items-center">
+  <header>
+    <div class="container flex flex-col items-center">
+      <h1 class="text-5xl font-semibold text-sky-900 text-center">
+        Popular Items
+      </h1>
+      <div class="subtext">
+        <p class="text-orange-800 p-0 m-0 max-w-md text-sm">
+          The best deals in your area.
+        </p>
+      </div>
+    </div>
+  </header>
+  <div class="w-1/2">
+    <div
+      class="mediaScroller snaps-inline grid grid-flow-col auto-cols-auto overflow-x-auto justify-items-center gap-2 overscroll-x-contain"
+    >
+      <div *ngFor="let item of popularItems">
+        <div class="popularItemPreview">
+          <img [lazyLoad]="item.popularItem" src="" alt="" class="rounded" />
+        </div>
+        <h3 class="dealsPreviewTitle text-sm">Title</h3>
+        <div class="dealsPreviewBadge">Badge</div>
+      </div>
+    </div>
+  </div>
+</div>
